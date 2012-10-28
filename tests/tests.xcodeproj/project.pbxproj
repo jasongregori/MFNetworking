@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79AEF141157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AEF140157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m */; };
+		79AEF1491580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AEF1481580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.m */; };
+		79AEF14B15800B7300FE41C2 /* Test Multipart Name and Type.httpbody in Resources */ = {isa = PBXBuildFile; fileRef = 79AEF14A15800B7300FE41C2 /* Test Multipart Name and Type.httpbody */; };
+		79AEF14D158011E700FE41C2 /* Test Multipart Filename.httpbody in Resources */ = {isa = PBXBuildFile; fileRef = 79AEF14C158011E700FE41C2 /* Test Multipart Filename.httpbody */; };
+		79AEF150158029A400FE41C2 /* Test Multipart More Headers.httpbody in Resources */ = {isa = PBXBuildFile; fileRef = 79AEF14E158029A400FE41C2 /* Test Multipart More Headers.httpbody */; };
+		79AEF151158029A400FE41C2 /* Test Multipart Two Parts.httpbody in Resources */ = {isa = PBXBuildFile; fileRef = 79AEF14F158029A400FE41C2 /* Test Multipart Two Parts.httpbody */; };
+		79C31567157D8D3D00074E32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C31566157D8D3D00074E32 /* UIKit.framework */; };
+		79C31569157D8D4300074E32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C31568157D8D4300074E32 /* Foundation.framework */; };
+		79C3156B157D8D6A00074E32 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C3156A157D8D6A00074E32 /* SenTestingKit.framework */; };
+		79C31577157D8D8E00074E32 /* MFBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C3156E157D8D8E00074E32 /* MFBase64.m */; };
+		79C3157A157D8D8E00074E32 /* NSMutableURLRequest+MFMultipart.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C31574157D8D8E00074E32 /* NSMutableURLRequest+MFMultipart.m */; };
+		79C3157B157D8D8E00074E32 /* NSURL+MFQueryParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C31576157D8D8E00074E32 /* NSURL+MFQueryParams.m */; };
+		79C3157E157D8DDB00074E32 /* MFBase64Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C3157D157D8DDB00074E32 /* MFBase64Tests.m */; };
+		79C31580157D92B700074E32 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C3157F157D92B700074E32 /* Security.framework */; };
+		79C31584157DA3F700074E32 /* Test Image Encoded.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79C31583157DA3F700074E32 /* Test Image Encoded.txt */; };
+		79C31586157DAD1200074E32 /* Test Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79C31585157DAD1200074E32 /* Test Image.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79AEF13F157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+MFQueryParams+Tests.h"; sourceTree = "<group>"; };
+		79AEF140157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MFQueryParams+Tests.m"; sourceTree = "<group>"; };
+		79AEF1471580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+MFMultipart+Tests.h"; sourceTree = "<group>"; };
+		79AEF1481580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+MFMultipart+Tests.m"; sourceTree = "<group>"; };
+		79AEF14A15800B7300FE41C2 /* Test Multipart Name and Type.httpbody */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 2; path = "Test Multipart Name and Type.httpbody"; sourceTree = "<group>"; };
+		79AEF14C158011E700FE41C2 /* Test Multipart Filename.httpbody */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Test Multipart Filename.httpbody"; sourceTree = "<group>"; };
+		79AEF14E158029A400FE41C2 /* Test Multipart More Headers.httpbody */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Test Multipart More Headers.httpbody"; sourceTree = "<group>"; };
+		79AEF14F158029A400FE41C2 /* Test Multipart Two Parts.httpbody */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Test Multipart Two Parts.httpbody"; sourceTree = "<group>"; };
+		79C3154B157D8BCC00074E32 /* tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C31556157D8BCC00074E32 /* tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tests-Info.plist"; sourceTree = "<group>"; };
+		79C3155D157D8BCC00074E32 /* tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tests-Prefix.pch"; sourceTree = "<group>"; };
+		79C31566157D8D3D00074E32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79C31568157D8D4300074E32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79C3156A157D8D6A00074E32 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		79C3156D157D8D8E00074E32 /* MFBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFBase64.h; path = ../MFBase64.h; sourceTree = "<group>"; };
+		79C3156E157D8D8E00074E32 /* MFBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFBase64.m; path = ../MFBase64.m; sourceTree = "<group>"; };
+		79C31573157D8D8E00074E32 /* NSMutableURLRequest+MFMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+MFMultipart.h"; path = "../NSMutableURLRequest+MFMultipart.h"; sourceTree = "<group>"; };
+		79C31574157D8D8E00074E32 /* NSMutableURLRequest+MFMultipart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableURLRequest+MFMultipart.m"; path = "../NSMutableURLRequest+MFMultipart.m"; sourceTree = "<group>"; };
+		79C31575157D8D8E00074E32 /* NSURL+MFQueryParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+MFQueryParams.h"; path = "../NSURL+MFQueryParams.h"; sourceTree = "<group>"; };
+		79C31576157D8D8E00074E32 /* NSURL+MFQueryParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+MFQueryParams.m"; path = "../NSURL+MFQueryParams.m"; sourceTree = "<group>"; };
+		79C3157C157D8DDB00074E32 /* MFBase64Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBase64Tests.h; sourceTree = "<group>"; };
+		79C3157D157D8DDB00074E32 /* MFBase64Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBase64Tests.m; sourceTree = "<group>"; };
+		79C3157F157D92B700074E32 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		79C31583157DA3F700074E32 /* Test Image Encoded.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Test Image Encoded.txt"; sourceTree = "<group>"; };
+		79C31585157DAD1200074E32 /* Test Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Test Image.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C31547157D8BCB00074E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C31580157D92B700074E32 /* Security.framework in Frameworks */,
+				79C3156B157D8D6A00074E32 /* SenTestingKit.framework in Frameworks */,
+				79C31569157D8D4300074E32 /* Foundation.framework in Frameworks */,
+				79C31567157D8D3D00074E32 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79C3153A157D8B8C00074E32 = {
+			isa = PBXGroup;
+			children = (
+				79C3156C157D8D7A00074E32 /* Mini Frameworks */,
+				79C31554157D8BCC00074E32 /* tests */,
+				79C3154D157D8BCC00074E32 /* Frameworks */,
+				79C3154C157D8BCC00074E32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79C3154C157D8BCC00074E32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79C3154B157D8BCC00074E32 /* tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79C3154D157D8BCC00074E32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79C3156A157D8D6A00074E32 /* SenTestingKit.framework */,
+				79C31568157D8D4300074E32 /* Foundation.framework */,
+				79C31566157D8D3D00074E32 /* UIKit.framework */,
+				79C3157F157D92B700074E32 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79C31554157D8BCC00074E32 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				79C31555157D8BCC00074E32 /* Supporting Files */,
+				79C3157C157D8DDB00074E32 /* MFBase64Tests.h */,
+				79C3157D157D8DDB00074E32 /* MFBase64Tests.m */,
+				79AEF1471580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.h */,
+				79AEF1481580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.m */,
+				79AEF13F157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.h */,
+				79AEF140157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		79C31555157D8BCC00074E32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79C31585157DAD1200074E32 /* Test Image.jpg */,
+				79C31583157DA3F700074E32 /* Test Image Encoded.txt */,
+				79AEF14A15800B7300FE41C2 /* Test Multipart Name and Type.httpbody */,
+				79AEF14C158011E700FE41C2 /* Test Multipart Filename.httpbody */,
+				79AEF14E158029A400FE41C2 /* Test Multipart More Headers.httpbody */,
+				79AEF14F158029A400FE41C2 /* Test Multipart Two Parts.httpbody */,
+				79C31556157D8BCC00074E32 /* tests-Info.plist */,
+				79C3155D157D8BCC00074E32 /* tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79C3156C157D8D7A00074E32 /* Mini Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79C3156D157D8D8E00074E32 /* MFBase64.h */,
+				79C3156E157D8D8E00074E32 /* MFBase64.m */,
+				79C31573157D8D8E00074E32 /* NSMutableURLRequest+MFMultipart.h */,
+				79C31574157D8D8E00074E32 /* NSMutableURLRequest+MFMultipart.m */,
+				79C31575157D8D8E00074E32 /* NSURL+MFQueryParams.h */,
+				79C31576157D8D8E00074E32 /* NSURL+MFQueryParams.m */,
+			);
+			name = "Mini Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79C3154A157D8BCB00074E32 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C31560157D8BCC00074E32 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				79C31546157D8BCB00074E32 /* Sources */,
+				79C31547157D8BCB00074E32 /* Frameworks */,
+				79C31548157D8BCB00074E32 /* Resources */,
+				79C31549157D8BCB00074E32 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tests;
+			productName = tests;
+			productReference = 79C3154B157D8BCC00074E32 /* tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C3153C157D8B8C00074E32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Jason Gregori";
+			};
+			buildConfigurationList = 79C3153F157D8B8C00074E32 /* Build configuration list for PBXProject "tests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79C3153A157D8B8C00074E32;
+			productRefGroup = 79C3154C157D8BCC00074E32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C3154A157D8BCB00074E32 /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79C31548157D8BCB00074E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C31584157DA3F700074E32 /* Test Image Encoded.txt in Resources */,
+				79C31586157DAD1200074E32 /* Test Image.jpg in Resources */,
+				79AEF14B15800B7300FE41C2 /* Test Multipart Name and Type.httpbody in Resources */,
+				79AEF14D158011E700FE41C2 /* Test Multipart Filename.httpbody in Resources */,
+				79AEF150158029A400FE41C2 /* Test Multipart More Headers.httpbody in Resources */,
+				79AEF151158029A400FE41C2 /* Test Multipart Two Parts.httpbody in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79C31549157D8BCB00074E32 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79C31546157D8BCB00074E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C31577157D8D8E00074E32 /* MFBase64.m in Sources */,
+				79C3157A157D8D8E00074E32 /* NSMutableURLRequest+MFMultipart.m in Sources */,
+				79C3157B157D8D8E00074E32 /* NSURL+MFQueryParams.m in Sources */,
+				79C3157E157D8DDB00074E32 /* MFBase64Tests.m in Sources */,
+				79AEF141157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m in Sources */,
+				79AEF1491580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79C31541157D8B8D00074E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79C31542157D8B8D00074E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		79C3155E157D8BCC00074E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tests/tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "tests/tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		79C3155F157D8BCC00074E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tests/tests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "tests/tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C3153F157D8B8C00074E32 /* Build configuration list for PBXProject "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C31541157D8B8D00074E32 /* Debug */,
+				79C31542157D8B8D00074E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C31560157D8BCC00074E32 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C3155E157D8BCC00074E32 /* Debug */,
+				79C3155F157D8BCC00074E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79C3153C157D8B8C00074E32 /* Project object */;
+}

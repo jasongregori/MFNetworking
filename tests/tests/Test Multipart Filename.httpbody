@@ -1,0 +1,6 @@
+--______0xMuLtIpArTbOuNdArYx0______
+Content-Disposition: form-data; filename="info.json"; name="info"
+Content-Type: application/json
+
+{"foo":"bar"}
+--______0xMuLtIpArTbOuNdArYx0______--
