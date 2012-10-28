@@ -1,4 +1,4 @@
-A set of iOS [mini framework](https://github.com/jasongregori/mini-frameworks) networking utilities.
+A collection of iOS [mini framework](https://github.com/jasongregori/mini-frameworks) networking utilities.
 
 
 Files
