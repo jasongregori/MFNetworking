@@ -23,6 +23,8 @@
 		79C31580157D92B700074E32 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C3157F157D92B700074E32 /* Security.framework */; };
 		79C31584157DA3F700074E32 /* Test Image Encoded.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79C31583157DA3F700074E32 /* Test Image Encoded.txt */; };
 		79C31586157DAD1200074E32 /* Test Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79C31585157DAD1200074E32 /* Test Image.jpg */; };
+		79D590D416448E9000CCFCE8 /* NSURLConnection+MFBlockize.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D590D316448E9000CCFCE8 /* NSURLConnection+MFBlockize.m */; };
+		79D590D816448EB400CCFCE8 /* NSURLConnection+MFBlockize+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D590D716448EB400CCFCE8 /* NSURLConnection+MFBlockize+Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,10 @@
 		79C3157F157D92B700074E32 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		79C31583157DA3F700074E32 /* Test Image Encoded.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Test Image Encoded.txt"; sourceTree = "<group>"; };
 		79C31585157DAD1200074E32 /* Test Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Test Image.jpg"; sourceTree = "<group>"; };
+		79D590D216448E9000CCFCE8 /* NSURLConnection+MFBlockize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLConnection+MFBlockize.h"; path = "../NSURLConnection+MFBlockize.h"; sourceTree = "<group>"; };
+		79D590D316448E9000CCFCE8 /* NSURLConnection+MFBlockize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+MFBlockize.m"; path = "../NSURLConnection+MFBlockize.m"; sourceTree = "<group>"; };
+		79D590D616448EB400CCFCE8 /* NSURLConnection+MFBlockize+Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+MFBlockize+Tests.h"; sourceTree = "<group>"; };
+		79D590D716448EB400CCFCE8 /* NSURLConnection+MFBlockize+Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+MFBlockize+Tests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,8 @@
 				79AEF1481580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.m */,
 				79AEF13F157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.h */,
 				79AEF140157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m */,
+				79D590D616448EB400CCFCE8 /* NSURLConnection+MFBlockize+Tests.h */,
+				79D590D716448EB400CCFCE8 /* NSURLConnection+MFBlockize+Tests.m */,
 			);
 			path = tests;
 			sourceTree = "<group>";
@@ -135,6 +143,8 @@
 				79C31574157D8D8E00074E32 /* NSMutableURLRequest+MFMultipart.m */,
 				79C31575157D8D8E00074E32 /* NSURL+MFQueryParams.h */,
 				79C31576157D8D8E00074E32 /* NSURL+MFQueryParams.m */,
+				79D590D216448E9000CCFCE8 /* NSURLConnection+MFBlockize.h */,
+				79D590D316448E9000CCFCE8 /* NSURLConnection+MFBlockize.m */,
 			);
 			name = "Mini Frameworks";
 			sourceTree = "<group>";
@@ -229,6 +239,8 @@
 				79C3157E157D8DDB00074E32 /* MFBase64Tests.m in Sources */,
 				79AEF141157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m in Sources */,
 				79AEF1491580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.m in Sources */,
+				79D590D416448E9000CCFCE8 /* NSURLConnection+MFBlockize.m in Sources */,
+				79D590D816448EB400CCFCE8 /* NSURLConnection+MFBlockize+Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +250,7 @@
 		79C31541157D8B8D00074E32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -246,7 +258,7 @@
 		79C31542157D8B8D00074E32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
