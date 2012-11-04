@@ -22,10 +22,12 @@
 
 - (void)testFullRequest {
     NSURLRequest *request = [NSMutableURLRequest requestWithURL:
-                             [[NSBundle mainBundle] URLForResource:@"Test Image" withExtension:@"jpg"]];
+                             [[NSBundle bundleForClass:[self class]] URLForResource:@"Test Text" withExtension:@"txt"]];
+    __block NSString *result = nil;
     __block BOOL blockCalled = NO;
     void (^block)(NSData *data, NSURLResponse *response, NSError *error) = ^(NSData *data, NSURLResponse *response, NSError *error) {
         blockCalled = YES;
+        result = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     };
     
     void (__weak ^weakblock)(NSData *data, NSURLResponse *response, NSError *error) = block;
@@ -42,7 +44,10 @@
     
     // test block called
     STAssertTrue(blockCalled, @"Response block was not called");
-        
+    
+    // test data correctly retrieved
+    STAssertEqualObjects(result, @"SUCCESS!", @"Data incorrectly retrieved");
+    
     // test block released
     STAssertNil(weakblock, @"Response block not released");
     

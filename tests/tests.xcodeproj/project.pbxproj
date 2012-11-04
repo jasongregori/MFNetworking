@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793C307D164639EF00B1FC37 /* Test Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 793C307C164639EF00B1FC37 /* Test Text.txt */; };
 		79AEF141157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AEF140157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m */; };
 		79AEF1491580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AEF1481580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.m */; };
 		79AEF14B15800B7300FE41C2 /* Test Multipart Name and Type.httpbody in Resources */ = {isa = PBXBuildFile; fileRef = 79AEF14A15800B7300FE41C2 /* Test Multipart Name and Type.httpbody */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		793C307C164639EF00B1FC37 /* Test Text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Test Text.txt"; sourceTree = "<group>"; };
 		79AEF13F157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+MFQueryParams+Tests.h"; sourceTree = "<group>"; };
 		79AEF140157FFD1C00FE41C2 /* NSURL+MFQueryParams+Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MFQueryParams+Tests.m"; sourceTree = "<group>"; };
 		79AEF1471580093200FE41C2 /* NSMutableURLRequest+MFMultipart+Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+MFMultipart+Tests.h"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				79AEF14C158011E700FE41C2 /* Test Multipart Filename.httpbody */,
 				79AEF14E158029A400FE41C2 /* Test Multipart More Headers.httpbody */,
 				79AEF14F158029A400FE41C2 /* Test Multipart Two Parts.httpbody */,
+				793C307C164639EF00B1FC37 /* Test Text.txt */,
 				79C31556157D8BCC00074E32 /* tests-Info.plist */,
 				79C3155D157D8BCC00074E32 /* tests-Prefix.pch */,
 			);
@@ -207,6 +210,7 @@
 				79AEF14D158011E700FE41C2 /* Test Multipart Filename.httpbody in Resources */,
 				79AEF150158029A400FE41C2 /* Test Multipart More Headers.httpbody in Resources */,
 				79AEF151158029A400FE41C2 /* Test Multipart Two Parts.httpbody in Resources */,
+				793C307D164639EF00B1FC37 /* Test Text.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
