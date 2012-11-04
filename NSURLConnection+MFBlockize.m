@@ -1,6 +1,5 @@
 //
 //  NSURLConnection+MFBlockize.m
-//  zabbi
 //
 //  Created by Jason Gregori on 7/22/11.
 //  Copyright 2011 Jason Gregori. All rights reserved.

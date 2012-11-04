@@ -1,12 +1,11 @@
 //
 //  NSURLConnection+MFBlockize.h
-//  zabbi
 //
 //  Created by Jason Gregori on 7/22/11.
 //  Copyright 2011 Jason Gregori. All rights reserved.
 //
 
-// @mf: Allows you to send use NSURLConnection with blocks
+// @mf: Allows you to use NSURLConnection with blocks
 
 /*
  
